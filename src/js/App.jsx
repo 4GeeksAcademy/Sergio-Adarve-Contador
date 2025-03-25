@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SecondsCounter from "./components/SecondsCounter"; // Importamos el contador
+import SecondsCounter from "./components/SecondsCounter";
 
 const App = () => {
   const [seconds, setSeconds] = useState(0);
